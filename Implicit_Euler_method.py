@@ -1,4 +1,6 @@
-def euler_method(derivative, t_start, t_end, y_initial, step_size):
+# this shit is way harder than euler method.... when reading about this i mistook it for semi-implicit Euler Method.
+
+def implicit_euler_method(derivative, t_start, t_end, y_initial, step_size):
 
     time_points = [t_start]
     solution_points = [y_initial]
