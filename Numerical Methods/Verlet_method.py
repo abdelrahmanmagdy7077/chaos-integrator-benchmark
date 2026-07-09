@@ -1,4 +1,4 @@
-def verlet_method(acceleration, t_start, t_end, y_initial, v_initial, step_size):
+def verlet(acceleration, t_start, t_end, y_initial, v_initial, step_size):
     time_points = [t_start]
     solution_points = [y_initial]
 
