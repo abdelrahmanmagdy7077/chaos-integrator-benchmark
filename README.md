@@ -11,32 +11,32 @@ The primary objective is to determine how the choice of numerical integrator imp
 
 Which numerical integrator works best for chaotic systems, and how much does the integrator's performance depend on the specific physical traits of the system itself?
 
-## Dynamical Systems Analyzed
+## [Chaotic Dynamic Systems](https://en.wikipedia.org/wiki/Chaos_theory) 
 
 The benchmarking framework applies the integrators to four distinct nonlinear chaotic systems:
 
-* **Lorenz 63:** A simplified three-dimensional mathematical model for atmospheric convection.
+* **[Lorenz 63](https://en.wikipedia.org/wiki/Lorenz_system):** A simplified three-dimensional mathematical model for atmospheric convection.
   
-* **Double Pendulum:** A classical mechanics system consisting of one pendulum attached to the end of another.
+* **[Double Pendulum](https://en.wikipedia.org/wiki/Double_pendulum):** A classical mechanics system consisting of one pendulum attached to the end of another.
 
-* **Planar 3-Body Problem:** A celestial mechanics model tracking the gravitational motion of three point masses restricted to a two-dimensional plane.
+* **[3-Body Problem](https://en.wikipedia.org/wiki/Three-body_problem):** A celestial mechanics model tracking the gravitational motion of three point masses restricted to a two-dimensional plane.
   
-* **Hénon-Heiles System:** A two-dimensional mathematical model describing the non-linear motion of a star moving through a galactic center.
+* **[Hénon-Heiles System](https://en.wikipedia.org/wiki/H%C3%A9non%E2%80%93Heiles_system):** A two-dimensional mathematical model describing the non-linear motion of a star moving through a galactic center.
     
 
-## Numerical Integration Methods
+## [Numerical Integration Methods](https://en.wikipedia.org/wiki/Numerical_methods_for_ordinary_differential_equations#Alternative_methods)
 
 To run the simulations, the equations of motion are solved using five numerical integrators:
 
-* **Forward Euler:** A first-order method. Used as a baseline to demonstrate error accumulation in linear approximations.
+* **[Euler Method](https://en.wikipedia.org/wiki/Euler_method):** A first-order method. Used as a baseline to demonstrate error accumulation in linear approximations.
   
-* **Symplectic Euler:** A modified first-order integrator that updates position and velocity sequentially to conserve system energy.
+* **[Backward Euler](https://en.wikipedia.org/wiki/Backward_Euler_method):** A modified first-order integrator that updates position and velocity sequentially to conserve system energy.
   
-* **Runge-Kutta 4 (RK4):** A fourth-order fixed-step method that uses weighted slope averages for higher accuracy.
+* **[Runge-Kutta 4](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods):** A fourth-order fixed-step method that uses weighted slope averages for higher accuracy.
   
-* **Velocity Verlet:** A second-order method optimized for long-term stability and energy conservation in physics engines.
+* **[Verlet Method](https://en.wikipedia.org/wiki/Verlet_integration):** A second-order method optimized for long-term stability and energy conservation in physics engines.
   
-* **Adaptive RK45 (Dormand-Prince):** A variable step-size method. It compares fourth and fifth-order steps to estimate local error and dynamically adjust time jumps.
+* **[Adaptive RK45 (Dormand-Prince)](https://en.wikipedia.org/wiki/Dormand%E2%80%93Prince_method):** A variable step-size method. It compares fourth and fifth-order steps to estimate local error and dynamically adjust time jumps.
 
 ---
 
