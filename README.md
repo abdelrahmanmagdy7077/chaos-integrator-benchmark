@@ -11,7 +11,7 @@ The primary objective is to determine how the choice of numerical integrator imp
 
 Which numerical integrator works best for chaotic systems, and how much does the integrator's performance depend on the specific physical traits of the system itself?
 
-## [Chaotic Dynamic Systems](https://en.wikipedia.org/wiki/Chaos_theory) 
+## [Chaotic Dynamical Systems](https://en.wikipedia.org/wiki/Chaos_theory) 
 
 The benchmarking framework applies the integrators to four distinct nonlinear chaotic systems:
 
@@ -24,7 +24,7 @@ The benchmarking framework applies the integrators to four distinct nonlinear ch
 * **[Hénon-Heiles System](https://en.wikipedia.org/wiki/H%C3%A9non%E2%80%93Heiles_system):** A two-dimensional mathematical model describing the non-linear motion of a star moving through a galactic center.
     
 
-## [Numerical Integration Methods](https://en.wikipedia.org/wiki/Numerical_methods_for_ordinary_differential_equations#Alternative_methods)
+## [Numerical Integration Methods](https://en.wikipedia.org/wiki/Numerical_methods_for_ordinary_differential_equations)
 
 To run the simulations, the equations of motion are solved using five numerical integrators:
 
